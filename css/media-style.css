@@ -1,0 +1,208 @@
+@media (max-width: 320px) {
+  /* * {
+    border: 1px red solid;
+  } */
+
+  .loft {
+    display: none;
+  }
+
+  .loft320 {
+    display: block;
+    /* border: 1px red solid; */
+    min-height: 1000px;
+    width: 320px;
+  }
+
+  .header__top-2 {
+    display: flex;
+    width: 160px;
+    height: 50px;
+    /* border: 1px blue solid; */
+  }
+
+  .header__top-2 img {
+    /* border: 1px blue solid; */
+  }
+
+  .logo {
+    margin-top: 14.5%;
+    margin-left: 18px;
+  }
+
+  .poisk input {
+    height: 40px;
+    width: 290px;
+    margin-left: 15px;
+    margin-top: 13px;
+    border: none;
+    background: #f9f9f9;
+    background-image: url(../responsive-imgs/search-icon.png) no-repeat top;
+  }
+
+  .poisk input::placeholder {
+    position: absolute;
+    left: 20px;
+  }
+
+  .poisk {
+    /* border: 1px red solid; */
+    width: 290px;
+  }
+
+  .icons {
+    width: 155px;
+    height: 50px;
+    /* border: 1px green solid; */
+    padding-left: 50px;
+  }
+
+  .icons a {
+    margin-top: 23px;
+    /* border: 1px red solid; */
+  }
+
+  .header__top-extra {
+    flex-wrap: wrap;
+    width: 319px;
+    height: 110px;
+    display: flex;
+    /* border: 1px green solid; */
+  }
+
+  .burger-menu {
+    width: 20px;
+    height: 11px;
+    margin-left: 13px;
+    margin-top: 34px;
+    /* border: 1px red solid; */
+  }
+
+  .header__top {
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+    height: 106px;
+    /* border: 1px blue solid; */
+    margin-top: 0px;
+  }
+
+  .main {
+    width: 320px;
+    /* border: 1px black solid; */
+  }
+
+  .header__top-1 {
+    width: 100px;
+    margin-left: 0px;
+    /* border: 1px red solid; */
+  }
+
+  .carousel {
+    margin-top: 100px;
+  }
+
+  .mebel-advert {
+    margin-top: 102px;
+  }
+
+  .mebel-advert__info {
+    /* border: 1px red solid; */
+    height: 126px;
+    width: 166px;
+    background: #f4f4f4;
+    position: absolute;
+    padding: 37px 0 0 15px;
+  }
+  .mebel-advert__info__headline {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .mebel-advert__info__headline-info {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -10px;
+  }
+
+  .section {
+    min-height: 700px;
+    width: 320px;
+    /* border: 1px red solid; */
+    margin-top: 21px;
+  }
+
+  .items {
+    width: 320px;
+    height: 700px;
+    /* border: 1px black solid; */
+  }
+
+  .stroka {
+    width: 320px;
+    height: 180px;
+    /* border: 1px green solid; */
+  }
+
+  .item {
+    /* border: 1px red solid; */
+    height: 179px;
+    width: 138px;
+    /* margin-left: 15px; */
+  }
+
+  .item-pic {
+    margin-top: 13px;
+    /* border: 1px green solid; */
+  }
+
+  .item-like{
+    /* border: 1px red solid; */
+    margin-top: 0px;
+    /* padding-right: 0px; */
+  }
+
+  .item-like img {
+    margin-right: 0px;
+  }
+
+  .item-info {
+    /* border: 1px black solid; */
+    margin-top: 25px;
+    margin-left: 0px;
+    height: 51px;
+  }
+
+  .item-info-1 {
+    font-size: 13px;
+  }
+
+  .item-info-2 {
+    font-size: 10px;
+    margin-top: -15px;
+  }
+
+  .item-info-3 {
+    font-size: 13px;
+    margin-top: -15px;
+  }
+
+  #item1 {
+    margin-left: 15px;
+  }
+
+  #item2 {
+    margin-right: 15px;
+  }
+
+  #stroka2 {
+    margin-top: 20px;
+  }
+}

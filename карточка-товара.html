@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/карточка-товара.css">
+    <title>Карточака-товара</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="#" class="logo"><img src="imgs/LOGO.png" alt="logo"></a>
+            <div class="pages">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+            <input class="search" type="text" placeholder="Поиск">
+            <div class="icons">
+                <ul>
+                    <li><a href=""><img src="imgs/phone.png" alt="phone-icon"><span>8 (964) 89 99 119</span></a></li>
+                    <li><a href=""><img src="imgs/delivery-icon.png" alt="delivery-icon"><span>Доставка</span></a></li>
+                    <li><a href=""><img src="imgs/wishlist-icon.png" alt="wishlist-icon"></a></li>
+                    <li><a href=""><img src="imgs/bag.png" alt="bag-icon"></a></li>
+                    <li><a href=""><img src="imgs/profile-icon.png" alt="profile-icon"></a></li>
+                </ul>
+            </div>
+        </div>
+        <header>
+            <div class="header__list">
+                <a style="width: 100%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/kitchen-icon (1).png" class="icons2" alt="">Кухни</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, <br> смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная <br> фарнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 100%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/bedroom-icon.png" class="icons2" alt="">Спальни</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фурнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 100%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/livingroom-icon.png" class="icons2" alt="">Гостинные</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фурнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 100%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/closet-icon.png" class="icons2" alt="">Прихожие</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фурнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 130%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/office-icon.png" class="icons2" alt="">Офисная мебель</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фурнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 100%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/childrensroom-icon.png" class="icons2" alt="">Детская</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фарнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 90%;" href="#" class="btn btn-secondary dropdown knopka" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Акция</a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фарнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+
+                <a style="width: 50px;" href="#" class="btn btn-secondary dropdown knopka bg-white" role="button
+                " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="imgs/etc.png" alt=""></a>
+                <ul class="dropdown-menu common" aria-labelledby="dropdownMenuLink">
+                    <li class="bnm"><a href="#">Модульные кухни</a></li>
+                    <li class="bnm"><a href="#">Барная зона</a></li>
+                    <li class="bnm"><a href="#">Кухонные уголки</a></li>
+                    <li class="bnm"><a href="#">Обеденная зона</a></li>
+                    <li class="bnm"><a href="#">Столешницы</a></li>
+                    <li class="bnm"><a href="#">Стеновые панели</a></li>
+                    <li class="bnm"><a href="#">Мойки, сушилки, смесители для кухни</a></li>
+                    <li class="bnm"><a href="#">Дополнительная фарнитура</a></li>
+                    <li class="bnm"><a href="#">Бытовая техника</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="section">
+            <div class="container2 d-flex align-items-start vvv">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <img src="imgs/main-photo.png" alt="">
+                        <div class="tab-infos">
+                            <h3>Динс Velvet Yellow</h3>
+                            <p>Диваны</p>
+                            <h4>4 690₽ <button class="buy">Купить</button> <input class="buy-checkbox"
+                                    type="checkbox">Добавить в желаемое</h4>
+                            <p class="text-1">Описание <br>
+
+                                Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван
+                                «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку.
+                                Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для
+                                размеренного отдыха в кругу семьи или компании друзей!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane show active" id="v-pills-home-2" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab-2">
+                        <img src="imgs/main-photo.png" alt="">
+                        <div class="tab-infos">
+                            <h3>Динс Velvet Yellow</h3>
+                            <p>Диваны</p>
+                            <h4>4 690₽ <button class="buy">Купить</button> <input class="buy-checkbox"
+                                    type="checkbox">Добавить в желаемое</h4>
+                            <p class="text-1">Описание <br>
+
+                                Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван
+                                «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку.
+                                Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для
+                                размеренного отдыха в кругу семьи или компании друзей!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane show active" id="v-pills-home-3" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab-3">
+                        <img src="imgs/main-photo.png" alt="">
+                        <div class="tab-infos">
+                            <h3>Динс Velvet Yellow</h3>
+                            <p>Диваны</p>
+                            <h4>4 690₽ <button class="buy">Купить</button> <input class="buy-checkbox"
+                                    type="checkbox">Добавить в желаемое</h4>
+                            <p class="text-1">Описание <br>
+
+                                Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван
+                                «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку.
+                                Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для
+                                размеренного отдыха в кругу семьи или компании друзей!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane show active" id="v-pills-home-4" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab-4">
+                        <img src="imgs/main-photo.png" alt="">
+                        <div class="tab-infos">
+                            <h3>Динс Velvet Yellow</h3>
+                            <p>Диваны</p>
+                            <h4>4 690₽ <button class="buy">Купить</button> <input class="buy-checkbox"
+                                    type="checkbox">Добавить в желаемое</h4>
+                            <p class="text-1">Описание <br>
+
+                                Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван
+                                «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку.
+                                Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для
+                                размеренного отдыха в кругу семьи или компании друзей!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav nav-pills me-3" id="v-pills-tab" role="tab-list" aria-orientation="verticle">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true"><img src="" alt=""></button>
+                    <button class="nav-link" id="v-pills-home-tab-2" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home-2"
+                        aria-selected="false"><img src="" alt=""></button>
+                    <button class="nav-link" id="v-pills-home-tab-3" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home-3"
+                        aria-selected="false"><img src="" alt=""></button>
+                    <button class="nav-link" id="v-pills-home-tab-4" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home-4"
+                        aria-selected="false"><img src="" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="section1">
+            <div class="container d-flex align-items-start class-tehnik">
+                <div class="main-zona">
+                    <div class="zona">
+                        <div class="zona1">
+                            <button class="btn btn-secondary dropdown-toggle" role="button" id=""
+                                data-bs-toggle="dropdown" aria-expanded="false"
+                                style=" margin-left: 30px;">Характеристики</button>
+                            <ul class=" beget" aria-labelledby="dropdownMenuLink2"
+                                style="width: 1250px; flex-wrap: wrap; height: 300px; border: none;">
+                                <li class="prosto" style="margin-left:11px; margin-top: 10px;">
+                                    <p>Размер1
+                                        .......................................................................................
+                                        218 x 95 x 90 (Дл. x Шир. x Выс.)</p>
+                                    <p>Спальное место
+                                        .................................................................... 195 x 144 x
+                                        44 (Дл. x Шир. x Выс.)</p>
+                                    <p>Посадочное место ...............................................................
+                                        50 x 44 (Глуб. x Выс.)</p>
+                                    <p>Каркас
+                                        ........................................................................................
+                                        массив, фанера, ДВП, пружинная змейка</p>
+                                    <p> Механизм
+                                        .................................................................................
+                                        пантограф</p>
+                                    <p> Материал ножек
+                                        ................................................................... массив</p>
+                                    <p> Наполнение подушек .........................................................
+                                        крошка ППУ, холлофайбер</p>
+                                </li>
+                                <li class="prosto2" style="margin-right:-136px; margin-top: -280px;">
+                                    <p>Бельевой ящик .................................................... есть</p>
+                                    <p>Зарядное устройство USB .................................................... нет
+                                    </p>git push -u origin main
+                                    <p>Съемный чехол .................................................... нет</p>
+                                    <p>Декоративные подушки .................................................... есть
+                                    </p>
+                                    <p>Вариант доставкив ....................................................
+                                        разобранном виде</p>
+                                    <p>Производитель .................................................... Россия</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="zona1">
+                            <button class="btn btn-secondary dropdown-toggle" role="button" id=""
+                                data-bs-toggle="dropdown" aria-expanded="false"
+                                style=" margin-left: -1062px;">Отзывы</button>
+                            <ul class="dropdown-menu sozvonitsya otzivi" aria-labelledby="dropdownMenuLink2"
+                                style="width: 1050px; flex-wrap: wrap; height: 300px; border: none;"
+                                data-popper-placement="bottom-start">
+                                <li class="prosto" style="margin-left: -160px; margin-top: 140px;">
+                                    <p>Размер2
+                                        .......................................................................................
+                                        218 x 95 x 90 (Дл. x Шир. x Выс.)</p>
+                                    <p>Спальное место
+                                        .................................................................... 195 x 144 x
+                                        44 (Дл. x Шир. x Выс.)</p>
+                                    <p>Посадочное место ...............................................................
+                                        50 x 44 (Глуб. x Выс.)</p>
+                                    <p>Каркас
+                                        ........................................................................................
+                                        массив, фанера, ДВП, пружинная змейка</p>
+                                    <p> Механизм
+                                        .................................................................................
+                                        пантограф</p>
+                                    <p> Материал ножек
+                                        ................................................................... массив</p>
+                                    <p> Наполнение подушек .........................................................
+                                        крошка ППУ, холлофайбер</p>
+                                </li>
+                                <li class="prosto2" style="margin-right: -133px; margin-top: -280px;">
+                                    <p>Бельевой ящик .................................................... есть</p>
+                                    <p>Зарядное устройство USB .................................................... нет
+                                    </p>
+                                    <p>Съемный чехол .................................................... нет</p>
+                                    <p>Декоративные подушки .................................................... есть
+                                    </p>
+                                    <p>Вариант доставкив ....................................................
+                                        разобранном виде</p>
+                                    <p>Производитель .................................................... Россия</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="zona1">
+                            <button class="btn btn-secondary dropdown-toggle" role="button" id=""
+                                data-bs-toggle="dropdown" aria-expanded="false" style=" margin-left: -962px;">Доставка и
+                                оплаты</button>
+                            <ul class="dropdown-menu sozvonitsya otzivi" aria-labelledby="dropdownMenuLink2"
+                                style="width: 810px; flex-wrap: wrap; height: 300px; border: none;">
+                                <li class="prosto" style="margin-left: -160px; margin-top: -50px;">
+                                    <p>Размер3
+                                        .......................................................................................
+                                        218 x 95 x 90 (Дл. x Шир. x Выс.)</p>
+                                    <p>Спальное место
+                                        .................................................................... 195 x 144 x
+                                        44 (Дл. x Шир. x Выс.)</p>
+                                    <p>Посадочное место ...............................................................
+                                        50 x 44 (Глуб. x Выс.)</p>
+                                    <p>Каркас
+                                        ........................................................................................
+                                        массив, фанера, ДВП, пружинная змейка</p>
+                                    <p> Механизм
+                                        .................................................................................
+                                        пантограф</p>
+                                    <p> Материал ножек
+                                        ................................................................... массив</p>
+                                    <p> Наполнение подушек .........................................................
+                                        крошка ППУ, холлофайбер</p>
+                                </li>
+                                <li class="prosto2" style="margin-right:-373px; margin-top: -280px;">
+                                    <p>Бельевой ящик .................................................... есть</p>
+                                    <p>Зарядное устройство USB .................................................... нет
+                                    </p>
+                                    <p>Съемный чехол .................................................... нет</p>
+                                    <p>Декоративные подушки .................................................... есть
+                                    </p>
+                                    <p>Вариант доставкив ....................................................
+                                        разобранном виде</p>
+                                    <p>Производитель .................................................... Россия</p>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
